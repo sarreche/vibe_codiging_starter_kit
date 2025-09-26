@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Quote Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            padding: 50px;
+        }
+        #quote {
+            font-size: 24px;
+            margin: 20px;
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>✨ Magic Quote Generator ✨</h1>
+    <p id="quote">Press the button to see a quote!</p>
+    <button onclick="newQuote()">Show me!</button>
+
+    <script>
+        const quotes = [
+            "The best way to predict the future is to create it.",
+            "Simplicity is the ultimate sophistication.",
+            "Dream big. Start small. Act now.",
+            "Stay curious, stay foolish.",
+            "Every expert was once a beginner."
+        ];
+
+        function newQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote').innerText = quotes[randomIndex];
+        }
+    </script>
+</body>
+</html>

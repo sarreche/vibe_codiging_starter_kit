@@ -1,0 +1,9 @@
+Lista de colores sugeridos (hexadecimal):
+
+#FF5733 → Naranja brillante
+#33FF57 → Verde neón
+#3357FF → Azul eléctrico
+#F1C40F → Amarillo vibrante
+#9B59B6 → Violeta moderno
+#E67E22 → Naranja cálido
+#2ECC71 → Verde pastel
